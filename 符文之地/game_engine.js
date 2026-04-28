@@ -2,7 +2,7 @@
  * 符文之地 - 核心游戏引擎
  */
 
-import { Player, PlayerClass } from './player.js';
+import { Player, CharacterClass } from './player.js';
 import { CombatSystem, BattleState } from './combat.js';
 import { EnemyFactory, EnemyManager } from './enemy.js';
 import { DungeonGenerator, Dungeon } from './dungeon.js';

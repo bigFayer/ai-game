@@ -4,14 +4,14 @@
  */
 
 import { ElementType } from './combat.js';
-import { PlayerClass } from './player.js';
+import { CharacterClass } from './player.js';
 
 // ==================== 技能数据 ====================
 const SkillDatabase = {
     // 战士技能
     'slash': {
         name: '斩击',
-        class: PlayerClass.WARRIOR,
+        class: CharacterClass.WARRIOR,
         type: 'active',
         mpCost: 0,
         cooldown: 0,
@@ -21,7 +21,7 @@ const SkillDatabase = {
     },
     'power_slash': {
         name: '强力斩击',
-        class: PlayerClass.WARRIOR,
+        class: CharacterClass.WARRIOR,
         type: 'active',
         mpCost: 10,
         cooldown: 3,
@@ -31,7 +31,7 @@ const SkillDatabase = {
     },
     'shield_bash': {
         name: '盾击',
-        class: PlayerClass.WARRIOR,
+        class: CharacterClass.WARRIOR,
         type: 'active',
         mpCost: 5,
         cooldown: 2,
@@ -41,7 +41,7 @@ const SkillDatabase = {
     },
     'battle_cry': {
         name: '战吼',
-        class: PlayerClass.WARRIOR,
+        class: CharacterClass.WARRIOR,
         type: 'active',
         mpCost: 15,
         cooldown: 5,
@@ -51,7 +51,7 @@ const SkillDatabase = {
     },
     'whirlwind': {
         name: '旋风斩',
-        class: PlayerClass.WARRIOR,
+        class: CharacterClass.WARRIOR,
         type: 'active',
         mpCost: 20,
         cooldown: 4,
@@ -63,7 +63,7 @@ const SkillDatabase = {
     // 法师技能
     'fireball': {
         name: '火球术',
-        class: PlayerClass.MAGE,
+        class: CharacterClass.MAGE,
         type: 'active',
         mpCost: 15,
         cooldown: 3,
@@ -74,7 +74,7 @@ const SkillDatabase = {
     },
     'ice_shard': {
         name: '冰刺术',
-        class: PlayerClass.MAGE,
+        class: CharacterClass.MAGE,
         type: 'active',
         mpCost: 12,
         cooldown: 2,
@@ -85,7 +85,7 @@ const SkillDatabase = {
     },
     'lightning': {
         name: '雷电术',
-        class: PlayerClass.MAGE,
+        class: CharacterClass.MAGE,
         type: 'active',
         mpCost: 18,
         cooldown: 3,
@@ -96,7 +96,7 @@ const SkillDatabase = {
     },
     'frost_nova': {
         name: '冰霜新星',
-        class: PlayerClass.MAGE,
+        class: CharacterClass.MAGE,
         type: 'active',
         mpCost: 25,
         cooldown: 5,
@@ -107,7 +107,7 @@ const SkillDatabase = {
     },
     'arcane_surge': {
         name: '奥术涌动',
-        class: PlayerClass.MAGE,
+        class: CharacterClass.MAGE,
         type: 'active',
         mpCost: 30,
         cooldown: 6,
@@ -119,7 +119,7 @@ const SkillDatabase = {
     // 游侠技能
     'quick_shot': {
         name: '疾风箭',
-        class: PlayerClass.RANGER,
+        class: CharacterClass.RANGER,
         type: 'active',
         mpCost: 5,
         cooldown: 1,
@@ -129,7 +129,7 @@ const SkillDatabase = {
     },
     'multi_shot': {
         name: '多重射击',
-        class: PlayerClass.RANGER,
+        class: CharacterClass.RANGER,
         type: 'active',
         mpCost: 20,
         cooldown: 4,
@@ -139,7 +139,7 @@ const SkillDatabase = {
     },
     'trap': {
         name: '陷阱',
-        class: PlayerClass.RANGER,
+        class: CharacterClass.RANGER,
         type: 'active',
         mpCost: 15,
         cooldown: 3,
@@ -149,7 +149,7 @@ const SkillDatabase = {
     },
     'evasion': {
         name: '闪避姿态',
-        class: PlayerClass.RANGER,
+        class: CharacterClass.RANGER,
         type: 'active',
         mpCost: 10,
         cooldown: 4,
@@ -159,7 +159,7 @@ const SkillDatabase = {
     },
     'assassinate': {
         name: '暗杀',
-        class: PlayerClass.RANGER,
+        class: CharacterClass.RANGER,
         type: 'active',
         mpCost: 25,
         cooldown: 5,
@@ -171,7 +171,7 @@ const SkillDatabase = {
     // 圣职技能
     'heal': {
         name: '治疗术',
-        class: PlayerClass.CLERIC,
+        class: CharacterClass.CLERIC,
         type: 'active',
         mpCost: 15,
         cooldown: 3,
@@ -182,7 +182,7 @@ const SkillDatabase = {
     },
     'holy_bolt': {
         name: '神圣制裁',
-        class: PlayerClass.CLERIC,
+        class: CharacterClass.CLERIC,
         type: 'active',
         mpCost: 12,
         cooldown: 2,
@@ -193,7 +193,7 @@ const SkillDatabase = {
     },
     'bless': {
         name: '祝福',
-        class: PlayerClass.CLERIC,
+        class: CharacterClass.CLERIC,
         type: 'active',
         mpCost: 20,
         cooldown: 5,
@@ -203,7 +203,7 @@ const SkillDatabase = {
     },
     'smite': {
         name: '重击',
-        class: PlayerClass.CLERIC,
+        class: CharacterClass.CLERIC,
         type: 'active',
         mpCost: 10,
         cooldown: 2,
@@ -213,7 +213,7 @@ const SkillDatabase = {
     },
     'divine_shield': {
         name: '神圣护盾',
-        class: PlayerClass.CLERIC,
+        class: CharacterClass.CLERIC,
         type: 'active',
         mpCost: 25,
         cooldown: 6,

@@ -3,7 +3,7 @@
  * 超大型Roguelike ARPG
  */
 
-import { Player, PlayerClass, CLASS_STATS } from './player.js';
+import { Player, CharacterClass, CLASS_STATS } from './player.js';
 import { CombatSystem } from './combat.js';
 import { EnemyManager } from './enemy.js';
 import { DungeonGenerator } from './dungeon.js';
@@ -873,10 +873,10 @@ class Game {
         
         // 职业选项
         const classes = [
-            { class: PlayerClass.WARRIOR, name: '战士', desc: '高攻物理，厚血量', color: '#ff6b6b' },
-            { class: PlayerClass.MAGE, name: '法师', desc: '元素魔法，高爆发', color: '#6b9fff' },
-            { class: PlayerClass.RANGER, name: '游侠', desc: '敏捷暴击，高闪避', color: '#6bff6b' },
-            { class: PlayerClass.CLERIC, name: '圣职', desc: '治疗辅助，平衡', color: '#ffd700' }
+            { class: CharacterClass.WARRIOR, name: '战士', desc: '高攻物理，厚血量', color: '#ff6b6b' },
+            { class: CharacterClass.MAGE, name: '法师', desc: '元素魔法，高爆发', color: '#6b9fff' },
+            { class: CharacterClass.RANGER, name: '游侠', desc: '敏捷暴击，高闪避', color: '#6bff6b' },
+            { class: CharacterClass.CLERIC, name: '圣职', desc: '治疗辅助，平衡', color: '#ffd700' }
         ];
         
         const startY = 150;

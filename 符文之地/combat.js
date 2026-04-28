@@ -3,7 +3,7 @@
  * 回合制战斗 + 元素反应 + 连击系统
  */
 
-import { Player, PlayerClass } from './player.js';
+import { Player, CharacterClass } from './player.js';
 
 // ==================== 元素类型 ====================
 const ElementType = {

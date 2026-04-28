@@ -717,4 +717,4 @@ class Player {
 }
 
 // 导出
-export { Player, PlayerClass, CLASS_STATS, CharacterClass };
+export { Player, CharacterClass, CLASS_STATS };

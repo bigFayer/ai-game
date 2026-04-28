@@ -3,25 +3,24 @@
  * 30,000+行Roguelike ARPG游戏
  */
 
-import { Player, PlayerClass } from './player.js';
-import { CombatSystem, BattleState } from './combat.js';
-import { EnemyFactory, EnemyAI } from './enemy.js';
-import { DungeonGenerator, DungeonRoom } from './dungeon.js';
-import { ItemDatabase, Inventory, Equipment } from './items.js';
-import { SkillDatabase, SkillSystem } from './skills.js';
-import { QuestManagerFull } from './quest_system_full.js';
-import { AchievementManagerFull } from './achievements_system_full.js';
-import { CraftingSystemFull } from './crafting_system_full.js';
-import { CraftingUI } from './crafting_system_full.js';
-import { StatusEffectManager, STATUS_EFFECTS } from './status_effects_system.js';
-import { BossBattleManager, BossAI } from './boss_mechanics.js';
-import { Pathfinder } from './ai_pathfinding.js';
-import { RenderManager } from './render_system.js';
-import { UIManager, Button, Label, HealthBar, Panel } from './ui_components.js';
-import { NotificationSystem } from './notification_system.js';
-import { ParticleSystem } from './particle_advanced.js';
-import { TipsManager } from './tips_and_tricks.js';
-import { SaveManager } from './save_system.js';
+import { Player, CharacterClass, CLASS_STATS } from './player.js';
+import { CombatSystem, ElementType, ElementReactions, ActionType } from './combat.js';
+import { Enemy, EnemyManager } from './enemy.js';
+import { DungeonGenerator, RoomType } from './dungeon.js';
+import { ItemManager, ItemType, ItemRarity, EquipSlot } from './items.js';
+import { SkillManager, SkillDatabase } from './skills.js';
+import { Quest, QuestManagerFull, QuestObjective, QUEST_DATA } from './quest_system_full.js';
+import { Achievement, AchievementManagerFull, ACHIEVEMENTS_FULL } from './achievements_system_full.js';
+import { CraftingSystemFull, CraftingRecipe, CraftingUI, CRAFTING_RECIPES_FULL } from './crafting_system_full.js';
+import { StatusEffect, StatusEffectManager, STATUS_EFFECTS } from './status_effects_system.js';
+import { BossPhase, BossAI, BossBattleManager, BOSS_MECHANICS } from './boss_mechanics.js';
+import { Pathfinder, PathNode } from './ai_pathfinding.js';
+import { RenderManager, RenderLayer, TileRenderer, TextRenderer } from './render_system.js';
+import { UIComponent, Button, Label, ProgressBar, HealthBar, Panel, InventorySlot, UIManager } from './ui_components.js';
+import { Notification, NotificationManager } from './notification_system.js';
+import { Particle, ParticleEmitter, AdvancedParticleSystem } from './particle_advanced.js';
+import { TipSystem, GAME_TIPS, AchievementTips } from './tips_and_tricks.js';
+import { SaveData, LocalSaveManager, CloudSaveManager, DataManager } from './save_system.js';
 import { DebugSystem } from './debug_system.js';
 import { GAME_CONFIG_FULL } from './config_all.js';
 import { SoundEngine } from './sound_engine.js';
@@ -29,7 +28,6 @@ import { NetworkManager } from './network_manager.js';
 import { MultiplayerManager } from './multiplayer_system.js';
 import { ReplayRecorder, ReplayPlayer } from './replay_system.js';
 import { AccessibilitySystem, ScreenReader } from './accessibility_system.js';
-import { TipsAndTricks } from './tips_and_tricks.js';
 
 // ==================== 主游戏类 ====================
 class Game {
