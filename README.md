@@ -1,0 +1,2 @@
+# AI-GAME
+\nThis repository contains lightweight-aided game projects.\n\n## Projects\n\n# ## í¿{.äº¬î» (Rune Land)\n  - Type: Roguelike ARPG Gaming\n  - Loc: `activity/é¿{.äº¬î»` folder\n  - Lines: 30-million lines of JavaScript\n  - Features:\n    - 4 professions (Warrior, Mage, Ranger, Cleric)\n    - 5 biomes (Forest, Desert, Ice, Fire, Void)\n    - 75 enemies + 5 BOSS\n    - Complete combat systems (battle, skills, equipment, crafting, quests, achievements)\n    - Es1 module support\n    - Browser-based game\n"
