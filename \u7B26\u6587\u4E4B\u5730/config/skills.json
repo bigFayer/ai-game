@@ -1,0 +1,32 @@
+{
+    "skills": {
+        "warrior": [
+            {"id": "slash", "name": "斩击", "mpCost": 0, "cooldown": 0},
+            {"id": "power_slash", "name": "强力斩击", "mpCost": 10, "cooldown": 3},
+            {"id": "shield_bash", "name": "盾击", "mpCost": 5, "cooldown": 2},
+            {"id": "battle_cry", "name": "战吼", "mpCost": 15, "cooldown": 5},
+            {"id": "whirlwind", "name": "旋风斩", "mpCost": 20, "cooldown": 4}
+        ],
+        "mage": [
+            {"id": "fireball", "name": "火球术", "mpCost": 15, "cooldown": 3},
+            {"id": "ice_shard", "name": "冰刺术", "mpCost": 12, "cooldown": 2},
+            {"id": "lightning", "name": "雷电术", "mpCost": 18, "cooldown": 3},
+            {"id": "frost_nova", "name": "冰霜新星", "mpCost": 25, "cooldown": 5},
+            {"id": "arcane_surge", "name": "奥术涌动", "mpCost": 30, "cooldown": 6}
+        ],
+        "ranger": [
+            {"id": "quick_shot", "name": "疾风箭", "mpCost": 5, "cooldown": 1},
+            {"id": "multi_shot", "name": "多重射击", "mpCost": 20, "cooldown": 4},
+            {"id": "trap", "name": "陷阱", "mpCost": 15, "cooldown": 3},
+            {"id": "evasion", "name": "闪避姿态", "mpCost": 10, "cooldown": 4},
+            {"id": "assassinate", "name": "暗杀", "mpCost": 25, "cooldown": 5}
+        ],
+        "cleric": [
+            {"id": "heal", "name": "治疗术", "mpCost": 15, "cooldown": 3},
+            {"id": "holy_bolt", "name": "神圣制裁", "mpCost": 12, "cooldown": 2},
+            {"id": "bless", "name": "祝福", "mpCost": 20, "cooldown": 5},
+            {"id": "smite", "name": "重击", "mpCost": 10, "cooldown": 2},
+            {"id": "divine_shield", "name": "神圣护盾", "mpCost": 25, "cooldown": 6}
+        ]
+    }
+}

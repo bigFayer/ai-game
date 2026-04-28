@@ -1,0 +1,13 @@
+{
+  "project": "符文之地",
+  "project_dir": "/root/rune-land/",
+  "phase": 0,
+  "next_action": "执行Phase 0任务：创建scale.json/state.json/README.md/TODO.md",
+  "scale_verdict": "small→large (actual: large)",
+  "run_mode": "editor",
+  "health_score": 100,
+  "completed_phases": [],
+  "blocked_tasks": [],
+  "created": "2026-04-28T21:22:00+08:00",
+  "updated": "2026-04-28T21:22:00+08:00"
+}

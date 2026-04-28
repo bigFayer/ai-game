@@ -1,0 +1,34 @@
+{
+    "biomes": {
+        "forest": {
+            "name": "阴暗森林",
+            "floors": 10,
+            "enemyTypes": ["wolf", "goblin", "skeleton", "spider", "bear"],
+            "color": "#2d5a2d"
+        },
+        "desert": {
+            "name": "荒芜沙漠",
+            "floors": 10,
+            "enemyTypes": ["scorpion", "mummy", "sandworm"],
+            "color": "#c2a64d"
+        },
+        "ice": {
+            "name": "冰霜要塞",
+            "floors": 10,
+            "enemyTypes": ["golem", "wraith"],
+            "color": "#6a9fb5"
+        },
+        "fire": {
+            "name": "烈焰地狱",
+            "floors": 10,
+            "enemyTypes": ["imp", "drake"],
+            "color": "#b54a2a"
+        },
+        "void": {
+            "name": "虚空神殿",
+            "floors": 10,
+            "enemyTypes": ["abomination", "lich"],
+            "color": "#4a2d5a"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "project": "符文之地 (Rune Land)",
+  "scale_verdict": "small→large",
+  "actual_scale": "large",
+  "determination_reason": "43,000行目标、4职业、50层地下城、75敌+30首领、120物品、50技能、完整经济系统",
+  "classification": {
+    "scope": "ultra_large",
+    "tech_stack": "HTML5 Canvas + 原生JS + JSON",
+    "external_deps": 0,
+    "module_count_estimate": 40,
+    "target_lines": 43000
+  },
+  "phases": {
+    "0": {"status": "todo", "description": "规模判定+快速通道"},
+    "1": {"status": "todo", "description": "环境自检"},
+    "2": {"status": "todo", "description": "规划拆解+任务表"},
+    "3": {"status": "todo", "description": "并行开发"},
+    "4": {"status": "todo", "description": "测试验证"},
+    "5": {"status": "todo", "description": "自动验收"},
+    "6": {"status": "todo", "description": "问题解决"},
+    "7": {"status": "todo", "description": "交付"}
+  },
+  "routing": {
+    "mode": "greenfield",
+    "specialization": "game-dev/cocos-alternative",
+    "skip_phase_1": false
+  },
+  "created": "2026-04-28T21:22:00+08:00"
+}

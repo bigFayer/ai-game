@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "id": "warrior",
+            "name": "战士",
+            "description": "高攻物理，厚血量",
+            "stats": {
+                "hp": 150, "mp": 30, "atk": 25, "def": 15, "spd": 8, "luk": 5,
+                "hpGrowth": 20, "mpGrowth": 5, "atkGrowth": 5, "defGrowth": 3, "spdGrowth": 1, "lukGrowth": 1
+            },
+            "skills": ["slash", "power_slash", "shield_bash", "battle_cry", "whirlwind"],
+            "color": "#ff6b6b"
+        },
+        {
+            "id": "mage",
+            "name": "法师",
+            "description": "元素魔法，高爆发",
+            "stats": {
+                "hp": 80, "mp": 100, "atk": 10, "def": 6, "spd": 10, "luk": 8,
+                "hpGrowth": 10, "mpGrowth": 15, "atkGrowth": 2, "defGrowth": 1, "spdGrowth": 2, "lukGrowth": 2
+            },
+            "skills": ["fireball", "ice_shard", "lightning", "frost_nova", "arcane_surge"],
+            "color": "#6b9fff"
+        },
+        {
+            "id": "ranger",
+            "name": "游侠",
+            "description": "敏捷暴击，高闪避",
+            "stats": {
+                "hp": 100, "mp": 50, "atk": 18, "def": 10, "spd": 18, "luk": 15,
+                "hpGrowth": 12, "mpGrowth": 8, "atkGrowth": 4, "defGrowth": 2, "spdGrowth": 3, "lukGrowth": 3
+            },
+            "skills": ["quick_shot", "multi_shot", "trap", "evasion", "assassinate"],
+            "color": "#6bff6b"
+        },
+        {
+            "id": "cleric",
+            "name": "圣职",
+            "description": "治疗辅助，平衡",
+            "stats": {
+                "hp": 110, "mp": 70, "atk": 12, "def": 12, "spd": 9, "luk": 10,
+                "hpGrowth": 15, "mpGrowth": 12, "atkGrowth": 3, "defGrowth": 3, "spdGrowth": 2, "lukGrowth": 2
+            },
+            "skills": ["heal", "holy_bolt", "bless", "smite", "divine_shield"],
+            "color": "#ffd700"
+        }
+    ]
+}

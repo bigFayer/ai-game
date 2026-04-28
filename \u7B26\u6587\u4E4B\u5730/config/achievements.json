@@ -1,0 +1,12 @@
+{
+    "achievements": [
+        {"id": "first_gold", "name": "第一桶金", "description": "获得100金币"},
+        {"id": "first_blood", "name": "初战告捷", "description": "击败第一个敌人"},
+        {"id": "floor_5", "name": "深入地下", "description": "到达第5层"},
+        {"id": "floor_10", "name": "小有名气", "description": "到达第10层"},
+        {"id": "floor_25", "name": "资深冒险者", "description": "到达第25层"},
+        {"id": "floor_50", "name": "传奇冒险者", "description": "到达第50层"},
+        {"id": "kill_enemies", "name": "战士", "description": "击败100个敌人"},
+        {"id": "complete_game", "name": "征服符文之地", "description": "通关游戏"}
+    ]
+}
